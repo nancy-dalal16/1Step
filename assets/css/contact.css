@@ -1,0 +1,54 @@
+#contact-hero{
+  background-color: var(--secondary);
+  height: 100vh;
+}
+#contact-hero h1{
+  color: var(--primary);
+  position: relative;
+  transform: translateY(50%);
+}
+.contact-form-container{
+  background-color: var(--white);
+  box-shadow: 0px 0px 80px 0px #00000026;
+  border-radius: 30px;
+}
+#contact-form{
+  margin-top: -30rem;
+}
+
+#cont-det{
+  padding-bottom: 10rem;
+  margin-top: -5rem;
+}
+#cont-det .links a{
+  color:var(--secondary);
+  font-size: 22px;
+}
+#cont-det .links a:hover{
+  color:var(--primary);
+}
+@media(max-width:1024px){
+
+}
+@media(max-width:992px){
+#contact-form{
+  margin-top: -35rem;
+}
+
+}
+@media(max-width:768px){
+
+}
+@media(max-width:680px){
+#contact-form{
+  margin-top: -48rem;
+}
+.contact-form-container{
+    border-radius: 30px;
+    overflow: hidden;
+}
+#cont-det {
+ padding-bottom:5rem;
+  margin-top: 0;
+}
+}
