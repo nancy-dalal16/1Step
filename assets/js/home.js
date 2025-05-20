@@ -46,16 +46,13 @@ $("#framework-factors").owlCarousel({
   nav: false,
   dots: true,
   animateIn: "fadeIn",
+  animateOut: "fadeOut",
   responsive: {
     0: {
       items: 1,
-      autoplay: false,
-      loop: false,
     },
     600: {
       items: 1,
-      autoplay: false,
-      loop: false,
     },
     1000: {
       items: 1,
