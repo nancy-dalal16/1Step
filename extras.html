@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zigzag Image Pattern</title>
+  <style>
+    /* General styling for the container */
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .image-container img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+
+    .image-container img:nth-child(odd) {
+      transform: translateX(-20px);
+
+    }
+
+    /* Target even images */
+    .image-container img:nth-child(even) {
+      transform: translateX(20px);
+      /* Move even images down */
+    }
+
+    /* Add hover effect for fun */
+    .image-container img:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="image-container">
+    <img src="assets/img/framework/f-1.png" alt="Framework img" width="100%">
+    <img src="assets/img/framework/f-2.png" alt="Framework img" width="100%">
+    <img src="assets/img/framework/f-3.png" alt="Framework img" width="100%">
+    <img src="assets/img/framework/f-4.png" alt="Framework img" width="100%">
+  </div>
+</body>
+
+</html>
