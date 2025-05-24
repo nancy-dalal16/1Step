@@ -1,280 +1,425 @@
-#stepHero{
+#stepHero {
   height: 80vh;
   background-color: var(--secondary);
 }
-#stepHero .container .row .col-md-5{
+
+#stepHero .container .row .col-md-5 {
   position: absolute;
-  top:0;
+  top: 0;
   right: 0%;
 }
+
 .btn-holder .det h4 {
-line-height: 1;
+  line-height: 1;
 }
-h4{
+
+h4 {
   font-size: 2.5rem;
   line-height: 3.5rem;
   font-weight: 700;
 }
 
-#inspired p{
+#inspired p {
   font-size: 1.625rem;
   line-height: 2.5rem;
 }
 
-#inspired{
-  padding-top:18rem ;
+#inspired {
+  padding-top: 18rem;
   padding-bottom: 10rem;
   background-image: url("../img/1StepApp/step-app-back.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
 }
-.first-slide{
+
+.first-slide {
   background-color: var(--primary);
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 #green-slide .owl-dot.active span {
-    background-color: var(--secondary);
-}
-#green-slide .owl-nav{
-  position: absolute;
-    bottom: 5rem;
-    display: flex;
-    justify-content: space-between;
-    gap: 10rem;
-    left:9%;
-    z-index: 2;
-}
-#green-slide .owl-dots{
-  position: absolute;
-    bottom: 4.5rem;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    left: 12%;
-    z-index: 1;
-}
-
-
-#healthy-habits .item{
-height: 35rem;
-}
-#healthy-habits .owl-dots span{
   background-color: var(--secondary);
 }
-#healthy-habits .owl-dot.active span{
+
+#green-slide .owl-nav {
+  position: absolute;
+  bottom: 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  left: 9%;
+  z-index: 2;
+}
+
+#green-slide .owl-dots {
+  position: absolute;
+  bottom: 4.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  left: 12%;
+  z-index: 1;
+}
+
+
+#healthy-habits .item {
+  height: 35rem;
+}
+
+#healthy-habits .owl-dots span {
+  background-color: var(--secondary);
+}
+
+#healthy-habits .owl-dot.active span {
   background-color: var(--primary);
 }
-#healthy-habits .owl-dots{
- width: 100%;
+
+#healthy-habits .owl-dots {
+  width: 100%;
   text-align: center;
   position: absolute;
   bottom: 60%;
   right: -40rem;
   transform: rotate(90deg);
 }
-.arrow-grp{
+
+.arrow-grp {
   margin-top: 3rem;
 }
-.arrow-content{
+
+.arrow-content {
   border: 3px solid var(--primary);
   border-radius: 30px;
   position: relative;
   z-index: 2;
   background-color: var(--white);
   left: 10rem;
-  top:0rem;
+  top: 0rem;
 }
-.arrow-content ul{
- list-style-image: url('../img/1StepApp/right\ tick.png');
- list-style-position: outside;
- padding:3rem;
- width: 30rem;
+
+.arrow-content ul {
+  list-style-image: url('../img/1StepApp/right\ tick.png');
+  list-style-position: outside;
+  padding: 3rem;
+  width: 30rem;
 
 }
+
 .arrow-content ul li::marker {
   font-weight: 600;
-   font-size: 10px !important;
-   width: 10px;
+  font-size: 10px !important;
+  width: 10px;
 }
 
 
-.arrow-content ul li{
- font-size: 1.375rem;
+.arrow-content ul li {
+  font-size: 1.375rem;
   line-height: 2rem;
   font-weight: 500;
-  color:var(--secondary);
+  color: var(--secondary);
   padding-left: 10px;
   margin: 1rem 2rem;
 }
-.slider-img{
+
+.slider-img {
   position: relative;
   z-index: 1;
 }
-.slider-img img{
+
+.slider-img img {
   width: 90% !important;
 }
-.test-track{
+
+.test-track {
   background-color: var(--secondary);
 }
-.test-points ul li{
- font-size: 1.375rem;
+
+.test-points ul li {
+  font-size: 1.375rem;
   line-height: 2rem;
   font-weight: 400;
-  color:var(--white);
+  color: var(--white);
   padding-left: 10px;
   margin: 1rem 2rem;
 }
-.test-img{
+
+.test-img {
   position: absolute;
   top: 5%;
   right: 0;
 }
-.stay-content{
+
+.stay-content {
   padding-top: 10rem;
 }
-.stay-content p{
+
+.stay-content p {
   font-weight: 700;
 }
-.stay-points ul li{
- font-size: 1.375rem;
+
+.stay-points ul li {
+  font-size: 1.375rem;
   line-height: 2rem;
   font-weight: 400;
-  color:var(--secondary);
+  color: var(--secondary);
   padding-left: 10px;
   margin: 1rem 2rem;
 }
-.stay-course-img{
+
+.stay-course-img {
   position: absolute;
-  top:-10%;
+  top: -10%;
 }
+
 .testimonials {
-  padding-top:15rem;
+  padding-top: 15rem;
 }
-.testimonials .container{
+
+.testimonials .container {
   background-color: var(--secondary);
   padding: 5rem;
   border-radius: 30px;
 }
-.author-name{
-  color:var(--primary);
+
+.author-name {
+  color: var(--primary);
   font-weight: 700;
   line-height: 1;
 }
-.author-designation{
+
+.author-designation {
   font-size: 20px !important;
   line-height: 1;
   font-weight: 400;
 }
 
-.testimonials .owl-nav{
+.testimonials .owl-nav {
   display: flex;
   justify-content: space-between;
   position: relative;
   margin-top: 5%;
   z-index: 2;
 }
-.testimonials .owl-dots{
+
+.testimonials .owl-dots {
   bottom: 0;
   z-index: 1;
 }
+#perfect .tabcontent{
+    background: url('../img/1StepApp/iPhone\ 15\ Pro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* margin: 0rem 1rem; */
+    height: 120vh;
+    width: 100%;
+    padding: 7rem 3rem;
+}
+#perfect-mobile .tabContentMobile {
+    background: url('../img/1StepApp/iPhone\ 15\ Pro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0rem;
+    height: 85vh;
+    width: 100%;
+    padding: 7rem 3rem;
+}
+/* #tabscreen{
+  height: 100vh;
+} */
+#perfect .tabcontent h5, #perfect-mobile .tabContentMobile h5{
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+}
+#perfect .tab button img, #perfect-mobile .tab button  img{
+  width: 100%;
+  height: 100%;
+}
+#perfect .tabcontent p, #perfect-mobile .tabContentMobile p{
+  color:var(--white);
+  font-size: 18px;
+  line-height: 1.5;
+ 
+}
+#perfect .tab button, #perfect-mobile .tab button {
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+   
+    border: 1px solid var(--secondary);
+    border-radius: 24px;
+    background: var(--secondary);
+    color: var(--primary);
+   
+    box-shadow: 0px 10px 15px 0px #0000004D;
+    margin: 2rem 1rem;
+    width: -webkit-fill-available;
+}
+
+#perfect .tab button h5{
+   font-size: 20px;
+   font-weight: 700;
+    line-height: 1.5;
+    padding: 16px;
+}
+#perfect-mobile .tab button h5 {
+ font-size: 20px;
+   font-weight: 700;
+    line-height: 1.5;
+    padding: 16px;
+}
+#perfect .tab button.active, #perfect-mobile .tab button.active {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+#perfect .right-tab .row {
+    flex-direction: row-reverse;
+}
+#perfect .left-tab button, #perfect-mobile .left-tab button {
+  padding-right: 0px;
+}
+#perfect .right-tab button, #perfect-mobile .right-tab button {
+  padding-left: 0px;
+}
+#perfect .left-tab button h5{
+  text-align: right;
+}
+#perfect .right-tab button h5{
+  text-align: left;
+}
+#perfect-mobile{
+  display: none;
+}
 
 @media(max-width:1024px) {
-#green-slide  .owl-nav{
+  #green-slide .owl-nav {
     bottom: 4rem;
     gap: 10rem;
-    left:10rem;
-}
-#green-slide .owl-dots{
+    left: 10rem;
+  }
+
+  #green-slide .owl-dots {
     left: 14rem;
-}
+  }
 
 }
-
+@media(max-width:992px){
+  #perfect{
+    display: none;
+  }
+  #perfect-mobile{
+    display: block;
+  }
+}
 @media(max-width:680px) {
   .owl-dots {
     width: auto;
   }
-#stepHero .container .row .col-md-5 {
+
+  #stepHero .container .row .col-md-5 {
     position: relative;
     top: 3rem;
     right: 0%;
-}
-#stepHero .container .row .col-md-7 h4, #stepHero .container .row .col-md-7 h1 {
+  }
+
+  #stepHero .container .row .col-md-7 h4,
+  #stepHero .container .row .col-md-7 h1 {
     text-align: center;
-}
-#inspired{
-  padding-top: 22rem;
-}
-.first-slide {
-  padding:6rem 1rem;
-}
-#green-slide .owl-nav {
+  }
+
+  #inspired {
+    padding-top: 22rem;
+  }
+
+  .first-slide {
+    padding: 6rem 1rem;
+  }
+
+  #green-slide .owl-nav {
     position: absolute;
     gap: 10rem;
     left: 25%;
     bottom: 3rem;
-}
-#green-slide .owl-dots {
+  }
+
+  #green-slide .owl-dots {
     position: absolute;
     left: 40%;
     bottom: 3rem;
-}
-#healthy-habits .item {
+  }
+
+  #healthy-habits .item {
     height: auto;
-}
-.slider-img img {
+  }
+
+  .slider-img img {
     width: 100% !important;
-}
-.arrow-img img{
-  width: 50% !important;
-}
-.arrow-content {
-left:0;
-margin-top: 1rem;
-}
-.arrow-content ul {
-width: auto;
-}
-    #healthy-habits .owl-dots {
-        width: 100%;
-        text-align: center;
-        position: relative;
-        bottom: -30px;
-        transform: rotate(0);
-        right: 0;
-        left: 0;
-    }
-    .arrow-grp{
-      flex-wrap: wrap;
-    }
-    .test-img {
+  }
+
+  .arrow-img img {
+    width: 50% !important;
+  }
+
+  .arrow-content {
+    left: 0;
+    margin-top: 1rem;
+  }
+
+  .arrow-content ul {
+    width: auto;
+  }
+
+  #healthy-habits .owl-dots {
+    width: 100%;
+    text-align: center;
     position: relative;
-}
-.stay-course-img{
-  position: relative;
-  margin-top: 10rem;
-}
-.stay-content {
+    bottom: -30px;
+    transform: rotate(0);
+    right: 0;
+    left: 0;
+  }
+
+  .arrow-grp {
+    flex-wrap: wrap;
+  }
+
+  .test-img {
+    position: relative;
+  }
+
+  .stay-course-img {
+    position: relative;
+    margin-top: 10rem;
+  }
+
+  .stay-content {
     padding-top: 0rem;
-}
-.testimonials{
-  padding-top:5rem;
-  margin:1rem;
-}
-.testimonials .container {
+  }
+
+  .testimonials {
+    padding-top: 5rem;
+    margin: 1rem;
+  }
+
+  .testimonials .container {
     background-color: var(--secondary);
     padding: 6rem 2rem;
     border-radius: 30px;
-}.testimonials .owl-nav {
-margin-top:12%
-}
-.testimonials .owl-dots {
+  }
+
+  .testimonials .owl-nav {
+    margin-top: 12%
+  }
+
+  .testimonials .owl-dots {
     bottom: 0;
     z-index: 1;
     left: 43%;
-}
+  }
 }
