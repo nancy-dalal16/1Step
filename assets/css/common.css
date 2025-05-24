@@ -273,6 +273,9 @@ label {
 
 .btn-holder .apple:hover {
     background-color: var(--white);
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    transform: scale(1.1);
 
     & h4,
     p {
@@ -290,6 +293,9 @@ label {
 
 .btn-holder .play:hover {
     background-color: var(--white);
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
+    transform: scale(1.1);
 
     & h4,
     p {

@@ -38,31 +38,6 @@ setInterval(() => {
   images[currentIndex].classList.add("active");
 }, 3000); // Change image every 3 seconds
 
-$("#framework-factors").owlCarousel({
-  loop: false,
-  margin: 0,
-  responsiveClass: true,
-  autoplay: false,
-  nav: false,
-  dots: true,
-  animateIn: "fadeIn",
-  animateOut: "fadeOut",
-  responsive: {
-    0: {
-      items: 1,
-    },
-    600: {
-      items: 1,
-    },
-    1000: {
-      items: 1,
-    },
-    1200: {
-      items: 1,
-    },
-  },
-});
-
 $("#green-slide").owlCarousel({
   loop: false,
   margin: 0,
@@ -70,8 +45,8 @@ $("#green-slide").owlCarousel({
   autoplay: false,
   nav: true,
   navText: [
-    "<img src='../assets/img/1StepApp/dark-left-arrow.png'>",
-    "<img src='../assets/img/1StepApp/dark-right-arrow.png''>",
+    "<img src='assets/img/1StepApp/dark-left-arrow.png'>",
+    "<img src='assets/img/1StepApp/dark-right-arrow.png'>",
   ],
   dots: true,
   animateIn: "fadeIn",
@@ -123,8 +98,8 @@ $("#testi").owlCarousel({
   autoplay: false,
   nav: true,
   navText: [
-    "<img src='../assets/img/1StepApp/light-left-arrow.png'>",
-    "<img src='../assets/img/1StepApp/light-right-arrow.png''>",
+    "<img src='assets/img/1StepApp/light-left-arrow.png'>",
+    "<img src='assets/img/1StepApp/light-right-arrow.png'>",
   ],
   dots: true,
   responsive: {
