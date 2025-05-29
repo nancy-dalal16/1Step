@@ -259,7 +259,8 @@ h4 {
    
     box-shadow: 0px 10px 15px 0px #0000004D;
     margin: 2rem 1rem;
-    width: -webkit-fill-available;
+    /* width: -webkit-fill-available; */
+    width: 80%;
 }
 
 #perfect .tab button h5{
