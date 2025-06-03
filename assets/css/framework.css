@@ -5,6 +5,11 @@
   align-items: center;
   background-color: var(--secondary);
 }
+#hero-framework p {
+  font-size: 1.625rem;
+  line-height: 2.5rem;
+}
+
 
 #factors {
   background: url('../img/background-vector.svg');

@@ -47,7 +47,7 @@ h4 {
 
 #green-slide .owl-nav {
   position: absolute;
-  bottom: 5rem;
+  bottom: 10%;
   display: flex;
   justify-content: space-between;
   gap: 10rem;
@@ -57,11 +57,11 @@ h4 {
 
 #green-slide .owl-dots {
   position: absolute;
-  bottom: 4.5rem;
+  bottom: 8%;
   display: flex;
   justify-content: start;
   align-items: center;
-  left: 12%;
+  left: 11.5%;
   z-index: 1;
 }
 
@@ -99,21 +99,38 @@ h4 {
   background-color: var(--white);
   left: 10rem;
   top: 0rem;
+  height: 20rem;
 }
 
 .arrow-content ul {
-  list-style-image: url('../img/1StepApp/right\ tick.png');
-  list-style-position: outside;
+  /* list-style-image: url('../img/1StepApp/right\ tick.png');
+  list-style-position: outside; */
   padding: 3rem;
   width: 30rem;
+  list-style: none;
+}
+.arrow-content ul li{
+  display: flex;
+  justify-content: start;
+}
+.arrow-content ul li:before {
+    background-image: url("../img/1StepApp/right\ tick.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+            display: inline-block;
+            margin-right: 10px;
+             height: 30px;
 
+            /* Width of the list image*/
+            width: 30px;
 }
 
-.arrow-content ul li::marker {
+/* .arrow-content ul li::marker {
   font-weight: 600;
   font-size: 10px !important;
   width: 10px;
-}
+} */
 
 
 .arrow-content ul li {
@@ -167,7 +184,7 @@ h4 {
   font-weight: 400;
   color: var(--secondary);
   padding-left: 10px;
-  margin: 1rem 2rem;
+  margin: 1rem;
 }
 
 .stay-course-img {
@@ -213,9 +230,9 @@ h4 {
     background: url('../img/1StepApp/iPhone\ 15\ Pro.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     /* margin: 0rem 1rem; */
-    height: 120vh;
+    height: 90vh;
     width: 100%;
     padding: 7rem 3rem;
 }
@@ -336,7 +353,17 @@ h4 {
   scroll-behavior: smooth;
   scrollbar-width: none;
 } */
-
+ @keyframes moveRight {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(350px);
+      }
+    }
+.arrow-img{
+  animation: moveRight 3.5s infinite;
+}
 @media(max-width:1024px) {
   #green-slide .owl-nav {
     bottom: 4rem;
@@ -465,4 +492,13 @@ h4 {
   .startBuilding{
     padding:3rem 0;
   }
+  .arrow-content {
+        left: 3rem;
+        margin-top: -7rem;
+        height: 18rem;
+        width: 22rem;
+    }
+.arrow-content ul {
+    padding: 1rem 0rem;
+}
 }

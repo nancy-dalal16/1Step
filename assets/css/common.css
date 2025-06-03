@@ -100,10 +100,13 @@ h2 span {
 }
 
 .primary-btn:hover {
-    background-color: transparent !important;
-    color: var(--primary);
+    /* background-color: transparent !important; */
+    color: var(--secondary);
     box-shadow: unset;
-    border: 1px solid var(--primary)
+    /* border: 1px solid var(--primary); */
+    transform: scale(1.1);
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
 }
 
 .secondary-btn {
@@ -119,8 +122,11 @@ h2 span {
 }
 
 .secondary-btn:hover {
-    background-color: var(--primary) !important;
-    color: var(--secondary) !important;
+    /* background-color: var(--primary) !important; */
+    color: var(--primary) !important;
+     transform: scale(1.1);
+    transition: all 200ms ease;
+    -webkit-transition: all 200ms ease;
 }
 
 .btn-holder {

@@ -2,10 +2,11 @@
 AOS.init();
 
 $("#homeapp").owlCarousel({
-  loop: false,
+  loop: true,
   margin: 0,
   responsiveClass: true,
-  autoplay: false,
+  autoplay: true,
+  autoplayTimeout: 2000,
   nav: false,
   dots: true,
   animateIn: "fadeIn",
@@ -39,10 +40,11 @@ setInterval(() => {
 }, 3000); // Change image every 3 seconds
 
 $("#green-slide").owlCarousel({
-  loop: false,
+  loop: true,
   margin: 0,
   responsiveClass: true,
-  autoplay: false,
+  autoplay: true,
+  autoplayTimeout: 3000,
   nav: true,
   navText: [
     "<img src='assets/img/1StepApp/dark-left-arrow.png'>",
@@ -68,14 +70,16 @@ $("#green-slide").owlCarousel({
 });
 
 $("#healthy-habits").owlCarousel({
-  loop: false,
+  loop: true,
   margin: 0,
   responsiveClass: true,
-  autoplay: false,
+  autoplay: true,
+  autoplayTimeout: 4000,
   nav: false,
-  dots: true,
+  dots: false,
+
   animateIn: "fadeIn",
-  animateOut: "fadeOut",
+
   responsive: {
     0: {
       items: 1,
