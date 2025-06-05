@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary);
+  background: var(--secondary) url('../img/framework/4321-Page-Banner.jpg') no-repeat bottom right;
+  background-size: cover;
 }
 #hero-framework p {
   font-size: 1.625rem;
@@ -153,6 +154,20 @@
   color: var(--secondary);
 }
 @media(max-width:680px) {
+  #hero-framework {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secondary) url('../img/framework/4321-Page-Banner_Mobile.jpg') no-repeat bottom center;
+  background-size: cover;
+  display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+#hero-framework p{
+  text-align: center;
+}
   #factors .row {
     flex-direction: column-reverse;
     margin-top: 2rem;

@@ -27,5 +27,5 @@ function openPointsMobile(evt, tabName) {
 }
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-document.getElementById("defaultOpenMobile").click();
+document.getElementById("defaultOpen").onmouseover();
+document.getElementById("defaultOpenMobile").onmouseover();

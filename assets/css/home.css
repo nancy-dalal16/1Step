@@ -245,7 +245,15 @@ linear-gradient(0deg, rgba(0, 49, 63, 0.5), rgba(0, 49, 63, 0.5));
   font-weight: 600;
 }
 
+.vertical-tabs{
+  height: 37rem;
+}
+
 @media(max-width:680px){
+  
+.vertical-tabs{
+  height: 100%;
+}
   .nav-tabs .nav-link.active:after {
     display: none;
 }
@@ -256,7 +264,7 @@ linear-gradient(0deg, rgba(0, 49, 63, 0.5), rgba(0, 49, 63, 0.5));
   padding-bottom: 3rem;
 }
 #homeApp {
-  height: 67rem;
+  height: 60rem;
   justify-content: flex-start;
   padding: 1rem 0;
   overflow: hidden;

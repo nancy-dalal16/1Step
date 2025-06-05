@@ -1,25 +1,21 @@
 // On Scroll Animation Intialization
 AOS.init();
 
-$("#homeapp").owlCarousel({
+$("#homeapps").owlCarousel({
   loop: true,
   margin: 0,
   responsiveClass: true,
   autoplay: true,
-  autoplayTimeout: 2000,
+  autoplayTimeout: 10000,
   nav: false,
   dots: true,
   animateIn: "fadeIn",
   responsive: {
     0: {
       items: 1,
-      autoplay: false,
-      loop: false,
     },
     600: {
       items: 1,
-      autoplay: false,
-      loop: false,
     },
     1000: {
       items: 1,
@@ -44,7 +40,7 @@ $("#green-slide").owlCarousel({
   margin: 0,
   responsiveClass: true,
   autoplay: true,
-  autoplayTimeout: 3000,
+  autoplayTimeout: 5000,
   nav: true,
   navText: [
     "<img src='assets/img/1StepApp/dark-left-arrow.png'>",
@@ -96,16 +92,43 @@ $("#healthy-habits").owlCarousel({
   },
 });
 $("#testi").owlCarousel({
-  loop: false,
+  loop: true,
   margin: 0,
   responsiveClass: true,
-  autoplay: false,
+  autoplay: true,
+  autoplayTimeout: 10000,
   nav: true,
   navText: [
     "<img src='assets/img/1StepApp/light-left-arrow.png'>",
     "<img src='assets/img/1StepApp/light-right-arrow.png'>",
   ],
   dots: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 1,
+    },
+    1000: {
+      items: 1,
+    },
+    1200: {
+      items: 1,
+    },
+  },
+});
+
+$("#offering-green-slide").owlCarousel({
+  loop: true,
+  margin: 0,
+  responsiveClass: true,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  nav: false,
+  dots: true,
+  animateIn: "fadeIn",
+  animateOut: "fadeOut",
   responsive: {
     0: {
       items: 1,

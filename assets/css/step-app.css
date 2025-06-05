@@ -308,9 +308,11 @@ h4 {
     line-height: 1.5;
     padding: 16px;
 }
+
+ 
 #perfect .tab button.active, #perfect-mobile .tab button.active {
-    background-color: var(--primary);
-    color: var(--secondary);
+    background-color: var(--primary) !important;
+    color: var(--secondary) !important;
 }
 #perfect .tab button:hover, #perfect-mobile .tab button:hover {
     background-color: var(--primary);
@@ -412,13 +414,13 @@ h4 {
     position: absolute;
     gap: 10rem;
     left: 25%;
-    bottom: 3rem;
+    bottom: 4rem;
   }
 
   #green-slide .owl-dots {
     position: absolute;
-    left: 40%;
-    bottom: 3rem;
+    left: 37%;
+    bottom: 3.8rem;
   }
 
   #healthy-habits .item {
@@ -473,6 +475,9 @@ h4 {
     padding-top: 5rem;
     margin: 1rem;
   }
+  .testimonials .container .item  p{
+    font-size: 18px !important;
+  }
 
   .testimonials .container {
     background-color: var(--secondary);
@@ -485,9 +490,10 @@ h4 {
   }
 
   .testimonials .owl-dots {
-    bottom: 0;
-    z-index: 1;
-    left: 43%;
+    bottom: -2%;
+        z-index: 1;
+        left: 16%;
+        width: 15rem;
   }
   .startBuilding{
     padding:3rem 0;
@@ -500,5 +506,13 @@ h4 {
     }
 .arrow-content ul {
     padding: 1rem 0rem;
+}
+
+#inspired .item h4, #inspired .item p {
+ text-align: center;
+}
+.quote-author{
+  display: flex;
+  flex-direction: column;
 }
 }

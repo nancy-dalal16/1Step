@@ -444,6 +444,9 @@ h2 {
         width: 10px;
         height: 10px;
     }
+    .text-primary{
+  color:var(--primary);
+}
     #cta {
     background-color: var(--primary);
     height: 60rem;
