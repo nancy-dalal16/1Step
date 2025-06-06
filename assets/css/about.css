@@ -1,0 +1,82 @@
+#about p, #ourteam p {
+  font-size: 1.625rem;
+  line-height: 2.5rem;
+}
+
+.frame-1{
+      position: absolute;
+    bottom: 10%;
+    left: -10%;
+}
+.frame-3{
+   position: absolute;
+    top: 10%;
+    right: -12%;
+}
+#ourteam{
+  background-color: var(--secondary);
+}
+#ourteam h4{
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+#advisors h5{
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+#advisors p{
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.bxl-linkedin-square{
+  color: #141414;
+}
+.bxl-linkedin-square:hover{
+  color:var(--primary);
+}
+
+#advisors{
+  background: url("../img/about/background-vector.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  overflow-x:hidden ;
+}
+
+@media(max-width:680px){
+  #about{
+    overflow-x: hidden;
+  }
+  .frame-1 img, .frame-2 img, .frame-3 img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .frame-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .frame-3 {
+    position: absolute;
+    top: -4%;
+    right: -31%;
+}
+.frame-1 {
+    position: absolute;
+    bottom: -2%;
+    left: 0;
+}
+.members{
+  height: 100%;
+}
+#advisors{
+  padding: 1rem;
+}
+}
+
