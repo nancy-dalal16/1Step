@@ -67,29 +67,30 @@
         <div class="col-md-6">
           <div class="formgroup">
             <h2 data-aos="fade-down" data-aos-delay="600">Get in Touch</h2>
-            <form action="" method="POST" enctype="multipart/form-data" class="mt-3" autocomplete="off"
-              data-aos="fade-down" data-aos-delay="700">
+            <form action="contact-handler.php" method="POST" enctype="multipart/form-data" class="mt-3"
+              autocomplete="off" data-aos="fade-down" data-aos-delay="700">
               <div class="row">
                 <div class="col-md-12">
                   <div class="form-group">
-                    <input type="text" class="form-control" id="name" placeholder="Name *" required autocomplete="off">
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="Email *" required
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Name *" required
                       autocomplete="off">
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
-                    <input type="tel" class="form-control" id="phone" placeholder="Phone Number *" required
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email *" required
                       autocomplete="off">
                   </div>
                 </div>
                 <div class="col-md-12">
                   <div class="form-group">
-                    <textarea id="form_message" name="message" class="form-control" placeholder="Message *"
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone Number *" required
+                      autocomplete="off">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea id="message" name="message" class="form-control" placeholder="Message *"
                       rows="4"></textarea>
                     <div class="help-block with-errors"></div>
                   </div>
